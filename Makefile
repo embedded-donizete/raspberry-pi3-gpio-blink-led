@@ -1,2 +1,2 @@
 main.o: main.c
-	gcc main.c -o main.o
+	gcc main.c -lgpiod -o main.o
